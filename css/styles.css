@@ -2,6 +2,7 @@ ul,
 ol {
   list-style-type: none;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -11,26 +12,23 @@ button {
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  align-content: center;
-
-  align-items: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
 .button-container {
   display: flex;
-  justify-content: center; /* Horizontally centers the button */
-  align-items: center; /* Vertically centers the button */
-  height: 100vh; /* Set the container height to full viewport */
+  justify-content: center; /* Горизонтальне центрування */
+  align-items: center; /* Вертикальне центрування */
+  height: 100vh; /* Висота контейнера */
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -40,11 +38,12 @@ body {
 h1 {
   font-family: 'Roboto';
 }
-/*--------------------- HEADER STYLES*/
 
+/*--------------------- HEADER STYLES*/
 .logo {
   display: inline-block;
 }
+
 .logo-web,
 .logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -56,11 +55,11 @@ h1 {
 }
 
 .logo-web {
-  color: #4d5ae5; /* Синий цвет */
+  color: #4d5ae5; /* Синій колір */
 }
 
 .logo-studio {
-  color: #2e2f42; /* Темно-серый цвет */
+  color: #2e2f42; /* Темно-сірий колір */
 }
 
 .menu-link {
@@ -71,10 +70,12 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #4d5ae5;
 }
+
 /*--------------------- HEADER STYLES END */
 
 .addres {
@@ -85,7 +86,8 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*--------------------- HERO STYLES*/
+
+/*--------------------- HERO STYLES */
 .hero-words {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -101,11 +103,13 @@ h1 {
   height: 600px;
   background: #2e2f42;
 }
+
 .end {
   width: 100%;
   height: 312px;
   background: #2e2f42;
 }
+
 .end-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -114,20 +118,11 @@ h1 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.logo-web,
-.logo-studio {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 
 .logo-web-end {
-  color: #4d5ae5; /* Синий цвет */
+  color: #4d5ae5; /* Синій колір */
 }
 
 .logo-studio-end {
-  color: #f4f4fd; /* Темно-серый цвет */
+  color: #f4f4fd; /* Темно-сірий колір */
 }
