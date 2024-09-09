@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 
-.order-service-btn {
+#order-service {
   background-color: #4d5ae5; /* Колір фону */
   font-family: 'Roboto', sans-serif; /* Наслідування шрифту від тега body */
   font-weight: 500; /* Жирність шрифту */
@@ -23,8 +23,8 @@ a {
 }
 
 /* Зміна кольору при наведенні мишкою (hover) та при фокусі (focus) */
-.order-service-btn:hover,
-.order-service-btn:focus {
+#order-service:hover,
+#order-service:focus {
   background-color: #404bbf;
 }
 
