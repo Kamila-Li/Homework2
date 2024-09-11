@@ -8,36 +8,34 @@ a {
   text-decoration: none;
 }
 
-#order-service {
-  background-color: #4d5ae5; /* Колір фону */
-  font-family: 'Roboto', sans-serif; /* Наслідування шрифту від тега body */
-  font-weight: 500; /* Жирність шрифту */
-  font-size: 16px; /* Розмір шрифту */
-  line-height: 1.5; /* Простір між рядками */
-  letter-spacing: 0.04em; /* Відстань між літерами */
-  color: #ffffff; /* Колір тексту */
-  cursor: pointer; /* Стиль курсору */
-  border-radius: 4px;
-  padding: 16px 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-/* Зміна кольору при наведенні мишкою (hover) та при фокусі (focus) */
-#order-service:hover,
-#order-service:focus {
-  background-color: #404bbf;
-}
-
 /* Заголовку в класі задано стиль для простору між рядками */
 .hero-words {
   line-height: 1.07;
 }
 
 .button-container {
-  display: flex;
-  justify-content: center; /* Горизонтальне центрування */
-  align-items: center; /* Вертикальне центрування */
-  height: 100vh; /* Висота контейнера */
+  text-align: center; /* Для вирівнювання кнопки по центру контейнера */
+}
+
+.order-service {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Додаємо плавний перехід при ховері */
+}
+
+.order-service:hover,
+.order-service:focus {
+  background-color: #404bbf;
+  outline: none; /* Прибирає стандартну обводку при фокусі */
 }
 
 body {
